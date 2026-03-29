@@ -7,7 +7,10 @@ namespace TP_MODUL5_103022400015
         static void Main(string[] args)
         {
             HaloGeneric h = new HaloGeneric();
-            h.SapaUser("zhara");
+            h.SapaUser("Azzhara Putri");
+
+            DataGeneric<string> data = new DataGeneric<string>("103022400015");
+            data.PrintData();
         }
     }
 }
